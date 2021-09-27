@@ -1,2 +1,2 @@
-# programs-C
- Alguns projetos em C
+# Programs in C / Programas em C
+ Alguns projetos baseados em C. 
