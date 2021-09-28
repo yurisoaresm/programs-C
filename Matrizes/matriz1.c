@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define LINHAS 4 // LINHAS: 50 ALUNOS 
+#define LINHAS 50 // LINHAS: 50 ALUNOS 
 #define COLUNAS 2 // COLUNAS: 2 VARIÁVEIS: 1º e 2º Bimestres
 int main(void) {
   float pauta[LINHAS][COLUNAS]; //Computação Gráfica: pauta[x][y][z]; // TABELA: MATRIZ 50 x 2 = 100 (dados armazenados)
