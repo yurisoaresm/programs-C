@@ -1,6 +1,5 @@
 /*
-escreva um algoreitmo que leia o EMAIL do usuário e 
-diga se é um EMAIL válido. 
+Algoritmo que lê e-mail.
 De forma simples, é valido um EMAIL que:
 REGRA 1: conter o caractere '@';
 REGRA 2: conter no mínimo um caractere '.' após o caractere '@';
