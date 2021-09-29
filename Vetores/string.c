@@ -6,7 +6,7 @@ REGRA 1: conter o caractere '@';
 REGRA 2: conter no mínimo um caractere '.' após o caractere '@';
 
 EXEMPLO:
-F U L A N O @ U V V .   B   R   \0
+F U L A N O @ A B C .   B   R   \0
 0 1 2 3 4 5 6 7 8 9 10  11  12  13
             ?
             index_arroba
