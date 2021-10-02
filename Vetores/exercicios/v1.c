@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <Windows.h>;
-#define T 3
+#define T 3		// Definir tamanho do conjunto (vetor)
 int main(void) {
 	SetConsoleOutputCP(65001);
  	int vetor[T], i, somaMult = 0, quantidade = 0;
