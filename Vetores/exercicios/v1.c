@@ -13,12 +13,17 @@ int main(void) {
 	for (i = 0; i < T; i++){
 		printf("%i ", vetor[i]);
 	}
-	// MÚLTIPLOS DE 3
-	printf("\nMúltiplos de 3: ");
+	// Múltiplos de 3
+	printf("\n\nMúltiplos de 3: ");
 	for (i = 0; i < T; i++){
-		if (vetor[i] % 3 == 0){
-			printf("%i ", vetor[i]);
-		}
+		if (vetor[i] % 3 == 0)
+			printf("%i (índice %i) ", vetor[i], i);
+	}
+	// Ímpares e múltiplos de 7
+	printf("\n\nÍmpares e múltiplos de 7: ");
+	for (i = 0; i < T; i++){
+		if (vetor[i] % 2 != 0 && vetor[i] % 7 == 0)
+			printf("%i (índice %i) ", vetor[i], i);
 	}
   return 0;
 }
