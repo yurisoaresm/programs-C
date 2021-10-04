@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include <Windows.h>
 
-#define SIZE 3
+#define SIZE 100
 int main(int argc, char const *argv[]){
     SetConsoleOutputCP(65001);
     int vetor[SIZE];
