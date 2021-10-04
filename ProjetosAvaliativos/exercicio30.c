@@ -1,3 +1,5 @@
+//Exibir na tela a quantidade de vezes que no vetor os caracteres 'U', 'V' e 'V' aparecem consecutivamente (nessa ordem).
+
 #include<stdio.h>
 #include <Windows.h>
 
