@@ -1,14 +1,14 @@
-//Exibir na tela a posição e a soma dos termos menores que beta^2.
+//Exibir na tela a posição e a soma dos termos menores que betha^2.
 
 #include<stdio.h>
 #include <Windows.h>
 
-#define SIZE 100
+#define SIZE 3
 #define BETHA 7.54
 int main(int argc, char const *argv[]){
     SetConsoleOutputCP(65001);
     int vetor[SIZE];
-    int i, contador = 0;
+    int i, somaElem = 0;
     
     for(i = 0; i < SIZE; i++){
         printf("Digite %iº número: ", i + 1);
@@ -18,12 +18,13 @@ int main(int argc, char const *argv[]){
             scanf("%i", &vetor[i]);
         }
     }
-
-    printf("\nQuantidade de vezes que aparece o 3: ");
+    printf("\nNúmeros menores que BETHA^2: ");
     for(i = 0; i < SIZE; i++){
-        if (vetor[i] == 3)
-            contador++;
+        if (vetor[i] < BETHA*BETHA){
+            printf("%i (posição %i) ", vetor[i], i + 1);
+            somaElem += vetor[i];
+        }
     }
-    printf("%i vezes.", contador);
+    printf("\nSoma desses números: %i", somaElem);
     return 0;
 }
