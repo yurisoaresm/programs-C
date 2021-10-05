@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include <Windows.h>
 
-#define SIZE 5
+#define SIZE 25000
 #define META 88.7
 int main(int argc, char const *argv[]){
     SetConsoleOutputCP(65001);
@@ -17,7 +17,7 @@ int main(int argc, char const *argv[]){
         scanf("%f", &tempoCorrida[i]);
     }
 
-    printf("\nAtletas que ficaram ABAIXO da meta (88.6 min) da prova: ");
+    printf("\nAtletas que ficaram ABAIXO da meta (88.7 min) da prova: ");
     for (i = 0; i < SIZE; i++){
         if (tempoCorrida[i] < META)
             printf("\nAtleta: %i", matricula[i]);
