@@ -1,2 +1,4 @@
-# Programs in C / Programas em C
- Alguns projetos baseados em C. 
+# Programas em C
+
+ - Neste repositório há algumas aplicações em C.
+ - Sua principal finalidade é didática.
