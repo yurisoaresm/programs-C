@@ -16,6 +16,7 @@ int main(int argc, char const *argv[]){
             quantidade++;
         i++;
     }
+    
     if (quantidade == 0)
         printf("Os caracteres UVV não estão consecutivamente no vetor.");
     else if (quantidade == 1)

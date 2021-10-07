@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include <Windows.h>
 
-#define SIZE 3
+#define SIZE 100
 #define BETHA 7.54
 int main(int argc, char const *argv[]){
     SetConsoleOutputCP(65001);
@@ -18,6 +18,7 @@ int main(int argc, char const *argv[]){
             scanf("%i", &vetor[i]);
         }
     }
+    
     printf("\nNúmeros menores que BETHA^2: ");
     for(i = 0; i < SIZE; i++){
         if (vetor[i] < BETHA*BETHA){

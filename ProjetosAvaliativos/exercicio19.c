@@ -18,6 +18,7 @@ int main(int argc, char const *argv[]){
             scanf("%i", &vetor[i]);
         }
     }
+    
     printf("\nAgora, digite um valor real n: ");
     scanf("%f", &n);
 
