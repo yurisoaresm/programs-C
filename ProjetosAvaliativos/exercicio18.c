@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include <Windows.h>
 
-#define SIZE 2
+#define SIZE 100
 #define BETHA 7.54
 int main(int argc, char const *argv[]){
     SetConsoleOutputCP(65001);
