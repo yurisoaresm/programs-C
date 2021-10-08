@@ -8,7 +8,7 @@
 int main(int argc, char const *argv[]){
     SetConsoleOutputCP(65001);
     int M[3][2], MT[2][3];
-    int i, j;
+    int i, j, l, c;
     srand(time(NULL));
 
     for (i = 0; i < 3; i++){
@@ -20,14 +20,14 @@ int main(int argc, char const *argv[]){
     printf("Matriz gerada aleatoriamente: \n");
     for (i = 0; i < 3; i++){
         for(j = 0; j < 2; j++){
+            MT[j][i] = M[i][j];
             printf("%i ",M[i][j]);
         }
         printf("\n");
     }
     printf("\nMatriz transposta da anterior: \n");
-    for (j = 0; j < 2; j++){
-        for(i = 0; i < 3; i++){
-            MT[i][j] = M[j][i];
+    for (i = 0; i < 2; i++){
+        for(j = 0; j < 3; j++){
             printf("%i ",MT[i][j]);
         }
         printf("\n");
