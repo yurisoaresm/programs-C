@@ -7,7 +7,7 @@
 int main(int argc, char const *argv[]){
     SetConsoleOutputCP(65001);
     char string[SIZE];
-    int i, quantidade = 0;
+    int i = 0, quantidade = 0;
     printf("Digite uma frase abaixo:\n");
     scanf("\n%[^\n]", string);
 
