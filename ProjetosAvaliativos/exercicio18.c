@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include <Windows.h>
 
-#define SIZE 100
+#define SIZE 2
 #define BETHA 7.54
 int main(int argc, char const *argv[]){
     SetConsoleOutputCP(65001);
@@ -22,7 +22,7 @@ int main(int argc, char const *argv[]){
     printf("\nNúmeros menores que BETHA^2: ");
     for(i = 0; i < SIZE; i++){
         if (vetor[i] < BETHA*BETHA){
-            printf("%i (posição %i) ", vetor[i], i + 1);
+            printf("\n%i (posição %i) ", vetor[i], i + 1);
             somaElem += vetor[i];
         }
     }
