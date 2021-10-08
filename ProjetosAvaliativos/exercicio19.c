@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include <Windows.h>
 
-#define SIZE 100
+#define SIZE 2
 int main(int argc, char const *argv[]){
     SetConsoleOutputCP(65001);
     int vetor[SIZE], i;
@@ -21,11 +21,11 @@ int main(int argc, char const *argv[]){
     
     printf("\nAgora, digite um valor real n: ");
     scanf("%f", &n);
-
+    
     printf("\nOs números armazenandos no vetor maiores que n são: ");
     for(i = 0; i < SIZE; i++){
         if (vetor[i] > n)
-            printf("%i (índice %i) ", vetor[i], i);
+            printf("\n%i (índice %i) ", vetor[i], i);
     }
     return 0;
 }
