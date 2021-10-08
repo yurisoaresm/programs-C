@@ -23,6 +23,9 @@ int main(int argc, char const *argv[]){
         if (vetor[i] == 3)
             contador++;
     }
-    printf("%i vezes.", contador);
+    if (contador == 1)
+        printf("%i vez", contador);
+    else
+        printf("%i vezes.", contador);
     return 0;
 }
