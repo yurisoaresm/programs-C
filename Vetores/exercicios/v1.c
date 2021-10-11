@@ -46,7 +46,7 @@ int main(void) {
 			quantidade++;
 		}
 	}
-	printf("%i ", somaMult/quantidade);
+	printf("%i ", (float)somaMult/quantidade);
 	
 	// Soma termos múltiplos de 3 ou 5
 	somaMult = 0;
