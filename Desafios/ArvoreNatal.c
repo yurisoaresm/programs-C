@@ -1,4 +1,4 @@
-// problem: 
+// árvore de natal
 
 int main(int argc, char const *argv[]){
   int N, i;
