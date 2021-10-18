@@ -3,10 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <Windows.h>
 
 int main(int argc, char const *argv[]){
-    SetConsoleOutputCP(65001);
     int M[3][2], MT[2][3];
     int i, j, l, c;
     srand(time(NULL));
