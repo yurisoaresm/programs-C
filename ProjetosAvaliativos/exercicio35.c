@@ -1,12 +1,10 @@
 // Exiba a matrícula dos atletas que ficaram abaixo da META da prova. A META da prova deste ano é 88.7 minutos. Declarar a META como constante com o comando #define.
 
 #include<stdio.h>
-#include <Windows.h>
 
 #define SIZE 25000
 #define META 88.7
 int main(int argc, char const *argv[]){
-    SetConsoleOutputCP(65001);
     float tempoCorrida[SIZE];
     int matricula[SIZE], i;
 

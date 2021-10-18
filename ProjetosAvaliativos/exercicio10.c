@@ -1,11 +1,9 @@
 // Exibir na tela a quantidade de vezes que aparece o número 3.
 
 #include<stdio.h>
-#include <Windows.h>
 
 #define SIZE 100
 int main(int argc, char const *argv[]){
-    SetConsoleOutputCP(65001);
     int vetor[SIZE];
     int i, contador = 0;
     

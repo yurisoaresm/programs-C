@@ -1,12 +1,10 @@
 //Exibir na tela a posição e a soma dos termos menores que betha^2.
 
 #include<stdio.h>
-#include <Windows.h>
 
 #define SIZE 100
 #define BETHA 7.54
 int main(int argc, char const *argv[]){
-    SetConsoleOutputCP(65001);
     int vetor[SIZE];
     int i, somaElem = 0;
     

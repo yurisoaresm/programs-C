@@ -1,11 +1,9 @@
 //Exibir na tela a quantidade de vezes que no vetor os caracteres 'U', 'V' e 'V' aparecem consecutivamente (nessa ordem).
 
 #include<stdio.h>
-#include <Windows.h>
 
 #define SIZE 100
 int main(int argc, char const *argv[]){
-    SetConsoleOutputCP(65001);
     char string[SIZE];
     int i = 0, quantidade = 0;
     printf("Digite uma frase abaixo:\n");
