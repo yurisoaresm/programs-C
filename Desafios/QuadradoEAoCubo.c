@@ -1,4 +1,4 @@
-// problem: https://www.urionlinejudge.com.br/judge/pt/problems/view/1143
+// árvore de natal
 
 int main(int argc, char const *argv[]){
   int N, i;
