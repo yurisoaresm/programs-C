@@ -16,6 +16,7 @@ int main(void){
   int a = 5, b = 5, c = 8;
 
   printf("%d\n", a == b);
+  printf("%d\n", a != b);
   printf("%d\n", a == c);
   printf("%d\n", a == b && a == c);
   printf("%d\n", a == b || a == c);
