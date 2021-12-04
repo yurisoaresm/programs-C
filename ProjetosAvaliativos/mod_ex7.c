@@ -18,7 +18,10 @@ int main(void) {
     if (ano < 0)
       printf("ERRO: o ano não pode ser negativo.\n");
     else{
-      printf("O ano %i é: %i\n", ano, anoBissexto(ano));
+      if(anoBissexto(ano))
+        printf("O ano %i É bissexto.\n", ano);
+      else
+        printf("O ano %i NÃO É bissexto.\n", ano);
       count++;
     }
 
