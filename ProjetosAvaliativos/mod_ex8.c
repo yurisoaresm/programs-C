@@ -12,10 +12,10 @@ float logaritmo(int N){
       divisor++;
   }
   
-  if (divisor > 2) // N não é primo
-    return log2(N)/log2(pi);
+  if (divisor > 2) // N não é primo se tiver mais de 2 divisores
+    return log(N)/log(pi);
   else 
-    return log2(pi)/log2(N);
+    return log(pi)/log(N);
 }
 
 int main(void) {
