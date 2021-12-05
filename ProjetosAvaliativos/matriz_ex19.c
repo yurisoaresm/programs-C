@@ -17,12 +17,12 @@ int main(void) {
 
   while (count <= 1000){
     for (i = 0; i < L; i++ ){ 
-        num = rand() % 2;
-        if (num == 0){
-          matriz[i][0]++;
-        }
-        else  
-          matriz[i][1]++;
+      num = rand() % 2;
+      if (num == 0){
+        matriz[i][0]++;
+      }
+      else  
+        matriz[i][1]++;
     }
     count++;
   }
