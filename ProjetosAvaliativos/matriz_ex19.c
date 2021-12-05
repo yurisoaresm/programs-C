@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define L 10
+#define L 50
 #define C 3
 
 int main(void) {
@@ -36,13 +36,14 @@ int main(void) {
       desvioMaior = matriz[i][2];
   }
 
-  printf("\tCARA\tCOROA\tDESVIO\n");
+  printf("Jogada\tCARA\tCOROA\tDESVIO\n");
   for(i = 0; i < L; i++){ 
+    printf("%i:", i+1);
     for(j = 0; j < C; j++){
       printf("\t%i", matriz[i][j]);
     }
     printf("\n");
   }
-
+  printf("\nO maior desvio foi: %i", desvioMaior);
   return 0;
 }
