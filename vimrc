@@ -1,9 +1,11 @@
-set nocompatible
-set nu
+set nocompatible 
+set number
 syntax on
 set encoding=utf-8
 set showcmd
-filetype plugin indent on
+filetype on
+filetype plugin on
+filetype indent on
 
 set tabstop=2 shiftwidth=2
 set expandtab
@@ -13,3 +15,8 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+
+set wildmenu
+set wildmode=list:longest
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+
