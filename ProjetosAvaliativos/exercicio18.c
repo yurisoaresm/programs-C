@@ -1,4 +1,4 @@
-//Exibir na tela a posição e a soma dos termos menores que betha^2.
+// Exibir na tela a posição e a soma dos termos menores que betha^2.
 
 #include<stdio.h>
 

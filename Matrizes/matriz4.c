@@ -1,7 +1,8 @@
 /* 
-Matrizes: A, B, C de ordem 4 x 3 
-A e B: recebe números inteiros pares pertencentes a [2, 100]
-C: recebe 1 (se A for múltipo B) ou 0 (não for múltiplo) 
+  ------------- MATRIZ -------------
+  Matrizes: A, B, C de ordem 4 x 3;
+  A e B: recebe números inteiros pares pertencentes a [2, 100];
+  C: recebe 1 (se A for múltipo B) ou 0 (não for múltiplo).
 */
 
 #include <stdio.h>

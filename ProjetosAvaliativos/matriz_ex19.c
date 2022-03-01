@@ -1,3 +1,9 @@
+/*
+  ------------ DESAFIO ------------ 
+  Descrição: Escrever um programa que crie uma matriz de lances aleatórios de caras (Zero) ou coroas (Um), conforme o exemplo a seguir. Repita o lance para as 50 jogadas e exiba os resultados (Matriz) sendo que cada lance (cara ou coroa) é executado 1000 vezes. Exiba também o Maior desvio encontrado entre todas as jogadas e qual foi esta jogada.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

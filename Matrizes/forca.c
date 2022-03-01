@@ -1,7 +1,8 @@
-/*
-Objetivo: criar uma forca (jogo);
-Tema: Frutas;
-Método: gerar vetor tamanho >= 5 com palavras aleatórias para serem adivinhadas.
+/* 
+  ------------- DESAFIO -------------
+  Objetivo: criar um jogo da forca;
+  Tema    : Frutas;
+  Método  : gerar vetor tamanho >= 5 com palavras aleatórias para serem adivinhadas.
 */
 
 #include <stdio.h>

@@ -1,9 +1,13 @@
+/*
+  Problema: Escrever um programa que crie uma Matriz Diagonal Secundária com reais negativos de ordem 10 x 10 com valores lidos do usuário e exiba a posição na matriz [Linha] [Coluna] do maior dos elementos.
+*/
+
 #include <stdio.h>
 #define T 10
 
 int main(void) {
   int i, j;
-  float matriz[T][T], maior = -999999999999999999;
+  float matriz[T][T], maior = -9999999;
 
   printf("Digite os elementos da matriz a seguir. (OBS: digite apenas números reais NÃO POSITIVOS)\n\n");
   for (i = 0; i < T; i++){

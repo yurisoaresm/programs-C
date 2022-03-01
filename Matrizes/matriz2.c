@@ -1,7 +1,9 @@
 /*
-MATRIZ DIAGONAL = i == j
-MATRIZ INVERSA DIAGONAL = i + j == T - 1
-
+	------------- MATRIZ -------------
+	Matriz diagonal principal												: i == j
+	Matriz inversa diagonal (diagonal secundária)		: i + j == T - 1
+	Matriz triangular inferior											: i >= j
+	Matriz triangular superior											: i <= j
 */
 
 #include <stdio.h>
@@ -14,6 +16,7 @@ int main(void) {
 
 	srand(time(NULL));
 
+	// Diagonal principal
 	for (i = 0; i < T; i++){
 		for (j = 0; j < T; j++){
 			if (i == j)
@@ -31,6 +34,7 @@ int main(void) {
 		printf("\n");
 	}
 
+	// Diagonal secundária
 	for (i = 0; i < T; i++){
 		for (j = 0; j < T; j++){
 			if (i + j == T - 1)
@@ -48,6 +52,7 @@ int main(void) {
 		printf("\n");
 	}
 
+	// Triangular inferior
 	for (i = 0; i < T; i++){
 		for (j = 0; j < T; j++){
 			if (i >= j)
@@ -65,6 +70,7 @@ int main(void) {
 		printf("\n");
 	}
 
+	// Triangular superior
 	for (i = 0; i < T; i++){
 		for (j = 0; j < T; j++){
 			if (i <= j)

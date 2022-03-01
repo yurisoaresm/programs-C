@@ -1,11 +1,11 @@
 /*
-Descobrir a senha da porta mágica, de 1 a 100. Com isso:
+	Descobrir a senha da porta mágica, de 1 a 100. Com isso:
 
--> O guerreiro tem 7 chances antes da morte;
--> O oráculo diz uma DICA; se o número escolhido pelo guerreiro é:
+	-> O guerreiro tem 7 chances antes da morte;
+	-> O oráculo diz uma DICA; se o número escolhido pelo guerreiro é:
 
-    -> Maior que o Segredo da porta ou 
-    -> Menor que o Segredo da porta.
+		-> Maior que o Segredo da porta ou 
+		-> Menor que o Segredo da porta.
 */
 #include <stdio.h>
 #include <time.h>

@@ -1,4 +1,6 @@
-/*Escreva um algoritmo em C que preencha um vetor com 80 símbolos (char). Após o preenchimento, exiba na tela: a Quantidade de termos, em porcentagem, que são vogais e NÃO são vogais. */
+/* Escreva um algoritmo em C que preencha um vetor com 80 símbolos (char). Após o preenchimento, exiba na tela: a Quantidade de termos, em porcentagem, que são vogais e NÃO são vogais. 
+*/
+
 #include <stdio.h>
 #define SIZE 10
 

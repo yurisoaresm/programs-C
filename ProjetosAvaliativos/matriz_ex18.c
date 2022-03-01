@@ -1,9 +1,17 @@
+/*
+  Problema: Criar um programa: Função + Protótipo que preencha e exiba uma matriz quadrada M 5X5 com valores aleatórios entre 1 e 9. Após o preenchimento, calcule e exiba dois vetores V1 e V2 formados a partir da média da soma dos elementos das respectivas linhas e colunas da Matriz M.
+
+*/
+
+// Arquivos inclusos 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
+// Protótipo
 void PreencheExibeMatriz();
 
+// Funções
 void PreencheExibeMatriz(){
   int i, j, matriz[5][5];
   float v1[] = {0, 0, 0, 0, 0}, v2[] = {0, 0, 0, 0, 0};

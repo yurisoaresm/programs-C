@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <Windows.h>;
+
 #define T 10		// Definir tamanho do conjunto (vetor)
 int main(void) {
-	SetConsoleOutputCP(65001);
  	int vetor[T], i, somaMult = 0, soma = 0, quantidade = 0, n;
 
 	printf("Digite 10 números inteiros positivos.\n");
@@ -46,7 +45,7 @@ int main(void) {
 			quantidade++;
 		}
 	}
-	printf("%i ", (float)somaMult/quantidade);
+	printf("%f ", (float)somaMult/quantidade);
 	
 	// Soma termos múltiplos de 3 ou 5
 	somaMult = 0;

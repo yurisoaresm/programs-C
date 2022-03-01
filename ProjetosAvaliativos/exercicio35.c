@@ -1,6 +1,6 @@
 // Exiba a matrícula dos atletas que ficaram abaixo da META da prova. A META da prova deste ano é 88.7 minutos. Declarar a META como constante com o comando #define.
 
-#include<stdio.h>
+#include <stdio.h>
 
 #define SIZE 25000
 #define META 88.7
